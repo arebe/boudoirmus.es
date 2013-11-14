@@ -44,7 +44,7 @@ class index_controller extends base_controller {
 				guest_dj_name,
 				station_id
 	        FROM shows
-				WHERE show_id = 11';
+				WHERE show_date >= CURDATE() AND DATEDIFF(show_date, CURDATE()) < 14';
 		// run query
 		$show = DB::instance(DB_NAME)->select_row($q);
 		// pass data to view
