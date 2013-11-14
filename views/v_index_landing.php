@@ -1,6 +1,6 @@
 <header>
 	<div class="headerbox">
-	<a href="/"><h3><span class="alert">next show</span>: <?=$show['show_date']?> with
+	<a href="http://glitch.fm"><h3><span class="alert">next show</span>: <?=$show['show_date']?> with
    <?=$show['host_dj_name']?> on <?=$show['station_id']?></h3></a>
 	</div>
 </header>
