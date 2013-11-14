@@ -1,0 +1,221 @@
+@charset "utf-8";
+/* css for the main app */
+header {
+	font-family: Verdana, Geneva, sans-serif;
+	border: 0px;
+	border-radius: 5px;
+	background:url('/images/moss_stitch_glitch.png');
+	background-size: 900px;
+	margin:0;
+}
+header h1, h2, h3{
+	letter-spacing: 0.2em;
+	padding-left: 0.7em;
+	color: #afaaff;
+}
+
+span.alert{
+	color: #efa910;
+}
+
+div.headerbox{
+	background: #202020;
+	border-radius: 5px;
+	opacity:0.6;
+	filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+
+body {
+	background-color: #ffffff; /*#2D2C30;*/
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	color: #C0C0C0;
+	width: 550px;
+	/* keeps everything in this tag centered in window */
+	/* Top Right Bottom Left */
+	margin:0 auto 0 auto; 
+}
+footer {
+	background-color: #ffffff;
+	font-family: Tahoma;
+	color: #C0C0CA;
+	font-size: smaller;
+	padding-left: 5px;
+	padding-right: 25px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-radius: 5px;
+}
+
+div.login_button{
+	float: right;
+}
+
+time{
+	font-family: Monaco, Consolas, "Lucida Console", monospace;
+	font-size: 10pt;
+	color: grey;
+}
+
+/* LVHA */
+a:link {color: #6699CC; text-decoration: none}
+a:visited {color: #6699CC }
+a:hover {color:#7A3DB8}
+header a:hover{color: #6699CC}
+aside h3 {letter-spacing:normal}
+nav {
+	margin: 0.2em auto;
+	width: 550px;
+	backgroud-color: #000000;
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+nav li{
+	float: left;
+
+}
+nav a:link, nav a:visited{
+	text-decoration: none;
+	padding-left: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	display: block;
+	height: 20px;
+	width: 105px;
+	margin: 0 auto 0 auto;
+}
+nav a:hover {
+	color:#f3f1fa; 
+	background-color: #2b2834;
+	border: solid #2b2834 5px;
+	border-radius: 5px;
+}
+article{
+	padding-top: 0;
+	clear: both;
+}
+
+/* Classes */
+.error{
+	color: red;
+}
+
+.pano_photo{
+	background: #000000;
+    width: device-width;
+}	
+
+.no_photo{
+	color: grey;
+}
+
+/* Landing page */
+article.landing{
+	background:url('/images/boudoir_glitched.png');
+	background-size: 500px 500px;
+	position: relative;
+	top: 0px;
+	width: 550px;
+	height: 500px;
+	margin:0 auto 0 auto; 
+}
+
+span.talkbutton{
+	padding: 5px 40px;
+	margin: 0px;
+	font-size: 30px;
+	background:url('/images/glitchfm_logo.png');
+	background-position: center;
+	position: absolute;
+	left: 27px;
+	bottom: 7px;
+}
+
+span.talkbutton:hover{
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+}	
+
+span.talkbutton a:hover {
+	color: #6699CC; 
+	text-decoration: underline overline;
+}
+
+span.listenbutton{
+	padding: 5px 30px;
+	margin: 0px;
+	font-size: 30px;
+	background:url('/images/glitchfm_logo.png');
+	background-position: center;
+	position: absolute;
+	left: 400px;
+	bottom: 10px;
+}
+
+span.listenbutton:hover{
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+span.listenbutton a:hover {
+	color: #6699CC; 
+	text-decoration: underline overline;
+}
+
+
+/* posts_index page */
+h1.posts_index{
+	font-size: 14pt;
+}
+
+span.post_user{
+	color:  #bf8040;
+}
+
+div.posts_box{
+	width: 900px;
+	height: 150px;
+	background-color:#2b2834;
+	border: dotted #001A33  0.2px;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+div.posts_box p, h1, time, form{
+	margin: 0.5em 1em;
+}
+
+div.posts_thumbnail{
+	float: right;
+	margin: auto 1.3em auto;
+}
+
+/* posts_view page */
+div.posts_comment h1{
+	font-size: 14pt;
+}
+
+div.posts_comment p, h1, form{
+	margin: 0.2em 1em;
+}
+
+div.posts_view time{
+	float: right;
+	margin: 1em 1.5em;
+}
+
+span.comment_user{
+	color:  #bf8040;
+}
+
+div.comment_box{
+	width: 750px;
+	height: 100px;
+	margin:0 auto 1em auto; 
+	background-color:#2b2834;
+	border: dotted #001A33  0.2px;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
